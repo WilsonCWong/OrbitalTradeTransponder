@@ -1,14 +1,11 @@
 # Orbital-Trade-Transponder
-Tired of waiting for a damn orbital trader to show up? 
-  
-Forgot to edit your scenario to make them appear every couple of days/quadrums, and didn't want to resort to dev mode?
-  
-We have the solution for you. A new-fandangled artifact that calls an orbital trader to your location, no bullshit, just use and boom, orbital trader ready to take your shit and rain down silver.
-  
-How to get such an item you may ask?
+A forked version of the SF Orbital Trader Transponder mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2023111461.
 
-Just crack open an Ancient Danger or ask a shaman merchant to stock you one. 
+This mod allows you to craft an orbital trader transponder to immediately call an orbital trader to you.
+    
+In this version, the recipe has been rebalanced and an upfront silver cost to call the trader has been added to
+make up for the fact that it can be reused. This cost can be customized in the mod's settings.
 
-Too hard? Well this handy piece of work can also be crafted with 700 silver, 10 components, 30 steel and 40 plasteel.
+This mod now requires HugsLib. It must be placed below HugsLib to function.
 
-Happy trading ya raider loving hecks!!!
+Credit to Mehni and Shotgunfrenzy for the original mod, and rselbo for the 1.1 update this forked is based off of.

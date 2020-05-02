@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="ResourceBase" Name="SFArtifactBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Items</li>
+    </tradeTags>
+    <statBases>
+      <Mass>0.5</Mass>
+		</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="SFArtifactBase">
+    <defName>SFOrbitalTraderTransponder</defName>
+    <label>Orbital trader transponder</label>
+    <description>An item that allows you to signal for an orbital trader to come trade with you, in return for an upfront silver cost. Trader type is random.</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/SFTraderTransponder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+	<techLevel>Spacer</techLevel>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Call an orbital trader</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>TraderWhereAreYou.CompUseEffect_CallTrader</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+</Defs>

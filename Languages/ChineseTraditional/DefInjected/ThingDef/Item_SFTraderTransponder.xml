@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SFOrbitalTraderTransponder.label>軌道答應器</SFOrbitalTraderTransponder.label>
+  <SFOrbitalTraderTransponder.description>可以向星際交易者發出信號的一次性用品,交易者類型是隨機的。</SFOrbitalTraderTransponder.description>
+  <SFOrbitalTraderTransponder.comps.3.useLabel>使用答應器</SFOrbitalTraderTransponder.comps.3.useLabel>
+
+
+</LanguageData>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MaxShipsInOrbit>無法調用更多的交易，軌道上已經有太多的交易者</MaxShipsInOrbit>
+  <InsufficientSilverBalance>您還需要{0}白銀才能要求交易員。</InsufficientSilverBalance>
+</LanguageData>

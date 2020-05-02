@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MaxShipsInOrbit>Can not call more tradeships, too many already in orbit</MaxShipsInOrbit>
+  <InsufficientSilverBalance>You need {0} more silver to request a trader.</InsufficientSilverBalance>
+</LanguageData>

@@ -12,8 +12,7 @@ A forked version of the SF Orbital Trader Transponder mod: https://steamcommunit
 
 This mod allows you to craft an orbital trader transponder to immediately call an orbital trader to you.
     
-In this version, the recipe has been rebalanced and an upfront silver cost to call the trader has been added to
-make up for the fact that it can be reused. This cost can be customized in the mod's settings.
+In this version, the transponder can be reused. In addition, the recipe has been rebalanced and an upfront silver cost to call the trader has been added to make up for the fact that it can be reused. This cost can be customized in the mod's settings.
 
 This mod now requires HugsLib. It must be placed below HugsLib to function.
 
